@@ -6,6 +6,8 @@ html, body {
 
 
 
+
+
 body {
   margin: 0;
   display: flex;
@@ -16,9 +18,17 @@ body {
 
   /* This centers our sketch vertically. */
   align-items: center;
+  background-image: url("./f1racer.gif");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
 }
 .bg {
   /* The image used */
   background-image: url("f1racer.gif");
 
 }
+
