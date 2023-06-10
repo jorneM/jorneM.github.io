@@ -22,7 +22,7 @@ body {
 }
 .bg {
   /* The image used */
-  background-image: url("./f1racer.gif");
+  /* background-image: url("./f1racer.gif"); */
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
