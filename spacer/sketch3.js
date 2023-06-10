@@ -75,6 +75,11 @@ function draw() {
     textSize(64);
     text("Game Over!", width/2, height/2);
     noLoop();
+            // Refresh the page after a delay of 3 seconds
+    setTimeout(function(){
+      location.reload();
+    }, 3000);
+    
   }
 }
 
